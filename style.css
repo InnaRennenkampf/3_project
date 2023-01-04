@@ -1,0 +1,156 @@
+body {
+    font-family: "RobotoRegular", sans-serif;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+p, h4 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    position: absolute;
+    z-index: 1;
+    top: 53px;
+    left: 100px;
+    right: 100px;
+    padding: 0;
+}
+
+.company {
+    margin-left: 6px;
+}
+
+.company h4 {
+    font-family: 'Viga', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+}
+
+.company p {
+    font-family: 'Viga', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.menu-item,
+.mode-search-item {
+    margin-right: 28px;
+}
+
+.menu-item a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.menu-item:last-child {
+    margin-right: 0;
+}
+
+.header-nav ul,
+.menu-mode-search ul {
+    padding: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.mode-search-item img {
+    cursor: pointer;
+}
+
+.carousel-caption {
+    text-align: start;
+    /*height: 973px;*/
+    /*max-height: 100%;*/
+    left: 5%;
+    right: 70%;
+    padding: 0;
+    top: 30%;
+}
+
+.carousel-caption p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.carousel-caption h5 {
+    font-family: 'Viga', sans-serif;
+    font-weight: 400;
+    font-size: 170px;
+    line-height: 228px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.carousel-caption h1 {
+    font-family: 'RobotoBold', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    /*margin-top: 305px;*/
+    margin-left: 10px;
+}
+
+.take-a-look p {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    color: #FFFFFF;}
+
+.carousel-indicators {
+    bottom: 50px;
+}
+
+.carousel-indicators [data-bs-target] {
+    margin: 0;
+    width: 176px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("images/arrow-left.svg");
+    left: 5%;
+}
+
+.carousel-control-next-icon {
+    background-image: url("images/arrow-right.svg");
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    align-items: end;
+    bottom: 60px;
+    width: 13%;
+    top: 900px;
+    /*bottom: 300px;*/
+}
+
+@font-face {
+    font-family: "Viga";
+    src: url('fonts/Viga-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "RobotoRegular";
+    src: url('fonts/Roboto-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "RobotoBold";
+    src: url("fonts/Roboto-Bold.ttf") format("truetype");
+}
